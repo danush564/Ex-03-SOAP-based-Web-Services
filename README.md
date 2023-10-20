@@ -1,29 +1,27 @@
 # Ex-03-SOAP-based-Web-Services
 
-## Aim:
+## AIM:
 
 To create and execute SOAP-based web service program using server, client and client- side remote invocation.
 
-## Procedure:
+## PROCEDURE:
 
 ### Server-side:
 #### Step 1:
 Open NetBeans IDE.
+
 #### Step 2:
 Click File->New Project. Choose Java Web and then Web Application and click Next.
+
 ![2](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/53b21d93-3784-4a69-b64a-ac255b66a132)
-
-
-
 
 #### Step 3:
 Give your Project a suitable Name and then click Next.
+
 #### Step 4:
 In the next window, make sure you have selected Server as “GlassFish Server” and Java EE Version as “Java EE 7 Web”. Click Finish.
+
  ![4](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/ba86ef64-1e67-4eba-9935-96d4b158fcde)
-
- 
-
 
 #### Step 5:
 Your new project will appear in the Projects tab in the left-most part of NetBeans.
@@ -50,12 +48,8 @@ Expand the folder “Web Services” under your project. You should see your new
 
 ![9](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/c0dc772c-c5ff-466f-bc8a-908a1f956291)
 
-
-
-
 #### Step 10:
 A new window to add operation will appear. In that give Name, Return Type to your operation. Then click the Add button to add necessary arguments/parameters for that
- 
 operation. (Since we are demonstrating simple addition, we use two arguments/parameters.) Once you are happy with your parameters/arguments, click OK.
 
 ![10](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/2e04e804-2aad-4074-87cf-2a9ed8b0fd78)
@@ -69,7 +63,7 @@ NetBeans will automatically generate the skeleton for the operation which will b
 
 
 #### Step 12:
-. Replace return 0.0 with return (a+b)
+Replace return 0.0 with return (a+b)
 
 #### Step 13:
 Save your project. Right-click on the project, select “Clean and Build”. Once the Building process is successful, again Right-click on the project, select “Deploy”.
@@ -77,7 +71,8 @@ Deploying might take time depending on the size of the project.
 
 ### Step 14:
 Once your project is successfully deployed, right-click on your web service name and select “Test Web Service”
- ![14](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/4c82ecec-fe36-4826-96bb-37dd25bb0f75)
+
+![14](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/4c82ecec-fe36-4826-96bb-37dd25bb0f75)
 
  
 
@@ -91,6 +86,7 @@ A new browser window will appear which will look like this
 
 #### Step 16: 
 You can give inputs to your web service and check whether it is working properly or not. If it is working properly, you will get a page like this
+
  ![16](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/4a6cac39-12aa-42c7-8495-77e777e89bcb)
 
  
@@ -99,6 +95,7 @@ You can give inputs to your web service and check whether it is working properly
 
 #### Step 1:
 Create a new Java Web Project in NetBeans. (Follow Steps 1-5 as in section 1.1)
+
 #### Step 2:
 Right-click on the project and select New->Web Service Client.
 
@@ -111,12 +108,14 @@ A new window will appear. Select “Project” under the heading “Specify the 
 
 #### Step 4: 
 A new window will appear, in that carefully choose appropriate web service and click OK.
- ![c4](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/b4050bbd-3c0c-4c57-b6cb-27325f140340)
+
+![c4](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/b4050bbd-3c0c-4c57-b6cb-27325f140340)
 
  
 #### Step 5:
 The Project file will be filled with the location to the WSDL file of the web service. If you prefer, you can give a package name. Or else click Finish
- ![c5](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/8bb6e72e-8085-42c6-b88e-db310a49605a)
+
+![c5](https://github.com/DrMalathiSaravanan/Ex-03-SOAP-based-Web-Services/assets/139700114/8bb6e72e-8085-42c6-b88e-db310a49605a)
 
 
 
@@ -165,5 +164,5 @@ A new window will appear. Select “WSDL URL” under the heading “Specify the
 The remaining procedure is the same as the Client-side.
 
 
-## Result:
+## RESULT:
 Thus, the SOAP based addition program using Web service is executed successfully.
